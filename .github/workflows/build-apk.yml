@@ -72,6 +72,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: IonicPhotoGallery-APK
-          path: PhotoGallery.apk
+          path: ionic-photogallery.apk
           if-no-files-found: error
           retention-days: 30
